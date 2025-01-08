@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Fibonacci_Series {
+public class Serie_de_Fibonacci {
 	public static void main(String[] args) {
 		int a = 0, b = 1;
 		int c=0;
-		System.out.println("Enter number : ");
-		Scanner scan = new Scanner(System.in);
+		System.out.println("Introducir numero: ");
+		Scanner escaner = new Scanner(System.in);
 		int i =0;
-		int x = scan.nextInt();
+		int x = escaner.nextInt();
 
 		while (c<x) {
 			System.out.println(c);
